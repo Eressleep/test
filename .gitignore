@@ -1,0 +1,62 @@
+.idea/
+node_modules/
+.sass-cache/
+/static/
+/stats/
+/errors/
+/upload/
+/front/node_modules
+# исключаем ВСЮ папку bitrix, но ниже настроим включение нужных папок
+# или используйте папку /local, чтобы полностью исключить папку bitrix
+/bitrix/*
+/bitrix/modules/
+# включаем папку components, но исключаем components/bitrix
+!/bitrix/components
+/bitrix/components/bitrix/*
+/bitrix/components/yandex.market/*
+!/bitrix/components/bitrix/sale.basket.basket*
+!/bitrix/components/bitrix/sale.order.ajax*
+!/bitrix/components/bitrix/catalog.smart.filter/
+# включаем папку php_interface и исключаем файл dbconn.php
+!/bitrix/php_interface/
+/bitrix/php_interface/dbconn.php
+/bitrix/php_interface/*.bak
+# включаем папку шаблонов
+!/bitrix/templates/
+!/bitrix/pagen.php
+!/bitrix/upload_log.php
+*.settings.php
+!/local/modules/odva.module/.settings.php
+*.tgz
+*.iml
+*.sql
+*.swp
+**/*/.DS_Store
+.htpasswd
+!/bitrix/modules/iblock
+sitemap*.xml
+site_checker*.log
+robots.txt
+/upload
+*.rar
+*.zip
+*.tar
+*.tar.gz
+*.tar.gz.*
+*.sql
+*.sql.gz
+*.log
+/log/
+/test/
+*.map
+/local/php_interface/const.php
+sftp-config*.json
+.DS_Store
+redirect.php
+logimport.txt
+/local/exchange/sender/sms_phone_log.txt
+/vendor/
+local/vendor/logs/
+/catalog/ycr.txt
+/sberbank.ecom/certs/
+.vscode/sftp.json
